@@ -1,0 +1,15 @@
+///
+/// Phantom by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Main */
+
+	#main {
+		@include padding(5em, 0, (-5em, 0, 3em, 0));
+
+		@include breakpoint('<=small') {
+			@include padding(3em, 0, (-3em, 0, 3em, 0));
+		}
+	}
