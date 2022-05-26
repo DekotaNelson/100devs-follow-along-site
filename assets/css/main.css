@@ -3424,3 +3424,9 @@ input, select, textarea {
 	div > p+p+a {
 		margin-bottom: 3%;
 	}
+
+	/* Misc */
+
+	.resources{
+		margin-top: 1%;
+	}

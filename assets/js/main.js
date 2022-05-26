@@ -218,9 +218,9 @@ function nextClass(){
 		window.location.replace(`https://100devsfollowalong.netlify.app/classes/class-2${(parseInt(secondDigit)) + 1}.html`)
 	}
 	else if(firstDigit == 2 && secondDigit == 9){
-		alert(`We don't have that class yet.`)
+		window.location.replace(`https://100devsfollowalong.netlify.app/classes/class-30.html`)
 	}
-	else if(firstDigit == 3 && secondDigit < 3){
+	else if(firstDigit == 3 && secondDigit < 5){
 		window.location.replace(`https://100devsfollowalong.netlify.app/classes/class-3${(parseInt(secondDigit)) + 1}.html`)
 	}
 	else{
