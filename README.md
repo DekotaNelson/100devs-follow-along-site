@@ -1,8 +1,8 @@
 ## 100devs-follow-along-site
-A website for easy access to the 100Devs follow along lectures, homework, files and more
+This site is dedicated to making it easy for the #Catch-upCrew to find the follow along materials, the homework, and the class files instead of having to rummage through all of the newer discord messages. This is the open source repository for that site. Please note I am not endorsed by, affiliated with, or sponsered by 100Devs or Leon, I merely had difficulty easily finding the class materials and homework for older classes and figured if I had trouble others would too. So I wanted to help others and to make it easier for everyone who may not be caught up to the live classes. I mention this to maintain 100% transparency about me, Dekota, and this website.
 
 ## What is 100Devs?
-An online, completely free, 30 week bootcamp, meant to bring you from zero programming skills to employable taught by [Leon Noel](https://leonnoel.com/100devs/).  
+An online, completely free 30 week bootcamp meant to bring you from zero programming skills to employable taught by [Leon Noel](https://leonnoel.com/100devs/).  
 
 ## Who is Leon Noel?
 Leon Noel is an internationally recognized software developer, entrepreneur and a very passionate teacher who loves helping folks learn to code and explore a new career in tech. He is also Managing Director of Engineering @ Resilient Coders and Distinguished Faculty @ General Assembly.
@@ -21,7 +21,7 @@ By the end of program, you would have worked with real paid clients, contributed
 All the fundamental skills you need to unlock a career as a software engineer. Also, the practical skills you need to learn HTML, CSS, Javascript, React, Node, Express, MongoDB, and some CS theory.
 
 ## How can I join?
-1.If you would like to join, please complete these taks: https://gleam.io/e6AV3/100devs-signup
+1.If you would like to join, please complete these tasks: https://gleam.io/e6AV3/100devs-signup
 
 2. Fill out this form: https://forms.gle/A4fiw6rM4ukX1eJG7
 
