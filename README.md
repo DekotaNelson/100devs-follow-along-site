@@ -1,6 +1,8 @@
 ## 100devs-follow-along-site
 This site is dedicated to making it easy for the #Catch-upCrew to find the follow along materials, the homework, and the class files instead of having to rummage through all of the newer discord messages. This is the open source repository for that site. Please note I am not endorsed by, affiliated with, or sponsered by 100Devs or Leon, I merely had difficulty easily finding the class materials and homework for older classes and figured if I had trouble others would too. So I wanted to help others and to make it easier for everyone who may not be caught up to the live classes. I mention this to maintain 100% transparency about me, Dekota, and this website.
 
+## Live site: https://100devsfollowalong.netlify.app/
+
 ## What is 100Devs?
 An online, completely free 30 week bootcamp meant to bring you from zero programming skills to employable taught by [Leon Noel](https://leonnoel.com/100devs/).  
 
