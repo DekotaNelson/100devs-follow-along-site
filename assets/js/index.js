@@ -9,7 +9,7 @@ function search(){
 	classNum = parseInt(classNumStr)
 	let tragetURL
 	if(Number.isInteger(classNum) && classNum > 0){
-		if(classNum <= 40)
+		if(classNum <= 41)
 		classNum < 10 ?  window.location.replace(`https://100devsfollowalong.netlify.app/classes/class-0${classNum}.html`) : window.location.replace(`https://100devsfollowalong.netlify.app/classes/class-${classNum}.html`)
 		else{
 			alert(`We don't have that class yet.`)
