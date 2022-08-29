@@ -3394,9 +3394,10 @@ input, select, textarea {
 		background-color: lightgray;
 	}
 
-	.nextClassButton{
+	.nextClassButton, .prevClassButton{
 		padding: 0 5px;
 		margin-top: 2px;
+		margin-right: 5px;
 		border: 1px solid black;
 		border-radius: 10px;
 		color: rgb(72, 72, 72);
