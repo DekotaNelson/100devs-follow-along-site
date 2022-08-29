@@ -181,6 +181,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		text-align: center;
 	}
 
 	h1 {
@@ -3430,3 +3431,5 @@ input, select, textarea {
 	.resources{
 		margin-top: 1%;
 	}
+
+	
