@@ -211,7 +211,7 @@ function prevClass(){
 
 	if(url) {
 		window.location.replace(url)
-	}
+  }
 	else {
 		alert(`We don't have that class yet.`)
 	}

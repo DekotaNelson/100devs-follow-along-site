@@ -181,6 +181,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		text-align: center;
 	}
 
 	h1 {
@@ -190,6 +191,9 @@ input, select, textarea {
 		margin: 0 0 1rem 0;
 		letter-spacing: -0.035em;
 	}
+		.otherProjectsH1{
+			text-align: center;
+		}
 
 		h1 a {
 			color: inherit;
@@ -3431,3 +3435,5 @@ input, select, textarea {
 	.resources{
 		margin-top: 1%;
 	}
+
+	
