@@ -186,55 +186,57 @@
 
 })(jQuery);
 
-
-
-
-
-//
-
 // Next Class Button
- 
-let firstDigit
-let secondDigit
+// Can't find a good way to get all classes besides assigning it
+// TODO: Make ths more dynamic
+const classes = 45
 document.querySelector('.nextClassButton').addEventListener("click", nextClass)
+document.querySelector('.prevClassButton').addEventListener("click", prevClass)
 
 function nextClass(){
-	currentURL = window.location.href
-	firstDigit = currentURL[53]
-	secondDigit = currentURL[54]
-	if(firstDigit == 0 && secondDigit < 9){
-		window.location.replace(`https://100devsfollowalong.netlify.app/classes/class-0${(parseInt(secondDigit)) + 1}.html`)
+
+	const url = getUrl(1)
+
+	if(url) {
+		window.location.replace(url)
 	}
-	else if(firstDigit == 0 && secondDigit == 9){
-		window.location.replace(`https://100devsfollowalong.netlify.app/classes/class-${(parseInt(firstDigit)) + 1}0.html`)
-	}
-	else if(firstDigit == 1 && secondDigit < 9){
-		window.location.replace(`https://100devsfollowalong.netlify.app/classes/class-1${(parseInt(secondDigit)) + 1}.html`)
-	}
-	else if(firstDigit == 1 && secondDigit == 9){
-		window.location.replace(`https://100devsfollowalong.netlify.app/classes/class-${(parseInt(firstDigit)) + 1}0.html`)
-	}
-	else if(firstDigit == 2 && secondDigit < 9){
-		window.location.replace(`https://100devsfollowalong.netlify.app/classes/class-2${(parseInt(secondDigit)) + 1}.html`)
-	}
-	else if(firstDigit == 2 && secondDigit == 9){
-		window.location.replace(`https://100devsfollowalong.netlify.app/classes/class-30.html`)
-	}
-	else if(firstDigit == 3 && secondDigit < 9){
-		window.location.replace(`https://100devsfollowalong.netlify.app/classes/class-3${(parseInt(secondDigit)) + 1}.html`)
-	}
-	else if(firstDigit == 3 && secondDigit == 9){
-		window.location.replace(`https://100devsfollowalong.netlify.app/classes/class-40.html`)
-	}
-	else if(firstDigit == 4 && secondDigit < 7){
-		window.location.replace(`https://100devsfollowalong.netlify.app/classes/class-4${(parseInt(secondDigit)) + 1}.html`)
-	}
-	else{
+	else {
 		alert(`We don't have that class yet.`)
 	}
 }
 
-//
+function prevClass(){
 
+	const url = getUrl(-1)
 
+	if(url) {
+		window.location.replace(url)
+  }
+	else {
+		alert(`We don't have that class yet.`)
+	}
+}
 
+function getUrl(incrementClass) {
+	currentURL = window.location.href
+
+	// Get the index of 'class-' in the url
+	let p = currentURL.indexOf("class-")
+
+	// If it is the last-class, return first-class url
+	if(p == -1) {
+		p = currentURL.indexOf("last-class")
+		return p != -1 ? currentURL.replace('last-class', 'class-01') : false
+	}
+	// Get the number after 'class-' and then slice the .html off the end, parse it as an int, and then add 1
+	let num = parseInt(currentURL.substring(p + "class-".length).slice(0, -5)) + incrementClass
+
+	// Get the rest of the url in order to increment it
+	let rest = currentURL.substring(0, p)
+
+	// Single digit numbers get parsed as '1', '2', add leading zero and turn num into string
+	String(num).length < 2 ? num = String('0' + num) : String(num)
+
+	// Return the URL
+	return `${rest}\class-${num}.html`
+}
