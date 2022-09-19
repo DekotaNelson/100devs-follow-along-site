@@ -189,7 +189,7 @@
 // Next Class Button
 // Can't find a good way to get all classes besides assigning it
 // TODO: Make ths more dynamic
-const classes = 45
+const classes = 47
 document.querySelector('.nextClassButton').addEventListener("click", nextClass)
 document.querySelector('.prevClassButton').addEventListener("click", prevClass)
 
@@ -230,6 +230,10 @@ function getUrl(incrementClass) {
 	}
 	// Get the number after 'class-' and then slice the .html off the end, parse it as an int, and then add 1
 	let num = parseInt(currentURL.substring(p + "class-".length).slice(0, -5)) + incrementClass
+
+	if(num > classes) {
+		return false
+	}
 
 	// Get the rest of the url in order to increment it
 	let rest = currentURL.substring(0, p)
