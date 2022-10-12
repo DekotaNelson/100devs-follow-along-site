@@ -189,7 +189,7 @@
 // Next Class Button
 // Can't find a good way to get all classes besides assigning it
 // TODO: Make ths more dynamic
-const classes = 47
+const classes = 52
 document.querySelector('.nextClassButton').addEventListener("click", nextClass)
 document.querySelector('.prevClassButton').addEventListener("click", prevClass)
 
