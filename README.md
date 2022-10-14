@@ -1,5 +1,5 @@
 ## 100devs-follow-along-site
-This site is dedicated to making it easy for the #Catch-upCrew to find the follow along materials, the homework, and the class files instead of having to rummage through all of the newer discord messages. This is the open source repository for that site. Please note I am not endorsed by, affiliated with, or sponsered by 100Devs or Leon, I merely had difficulty easily finding the class materials and homework for older classes and figured if I had trouble others would too. So I wanted to help others and to make it easier for everyone who may not be caught up to the live classes. I mention this to maintain 100% transparency about me, Dekota, and this website.
+This site is dedicated to making it easy for the #Catch-upCrew to find the follow-along materials, the homework, and the class files instead of having to rummage through all of the newer discord messages. This is the open source repository for that site. Please note I am not endorsed by, affiliated with, or sponsored by 100Devs or Leon, I merely had difficulty easily finding the class materials and homework for older classes and figured if I had trouble others would too. So I wanted to help others and to make it easier for everyone who may not be caught up to the live classes. I mention this to maintain 100% transparency about me, Dekota, and this website.
 
 ## Live site: https://100devsfollowalong.netlify.app/
 
@@ -11,7 +11,7 @@ Leon Noel is an internationally recognized software developer, entrepreneur and 
 
 1. [Website](https://leonnoel.com/)
 2. [Resume](https://leonnoel.com/media/leonnoel-resume.pdf)
-3. [Github](https://github.com/leonnoel)
+3. [Github](https://Github.com/leonnoel)
 
 ## What's the mission of 100Devs?
 The goal and vision of 100Devs according to its creator Leon is to give folks who have been laid off, affected by the pandemic, or unhappy with their current career the tools they need to command a job in software engineering.
